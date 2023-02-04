@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 02_ScreenCartoon
+  m_Shader: {fileID: 4800000, guid: eb817d7e4491c2e428c818ef245a65e5, type: 3}
+  m_ShaderKeywords: _OUTLINE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTex:
+        m_Texture: {fileID: 2800000, guid: 89e8679950b0393408b353cc4b087dc9, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _TexRamp:
+        m_Texture: {fileID: 2800000, guid: 181ec605fb3b4314bbee61db18ab41c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexRamp_copy:
+        m_Texture: {fileID: 2800000, guid: 2b4a73e9a4587324f990b93d303b4add, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AddPower: 1
+    - _FresnelPower: 4
+    - _HightLightSize: 0.949
+    - _HightLightSize_1: 1
+    - _HightLightSize_2: 0.983
+    - _HightLightSize_copy: 1
+    - _MultiplyPower: 1
+    - _OutLine: 1
+    - _OutLineWidth: 0.015
+    - _OutLineWidthOutLineWidth: 0.02
+    - _OutLineWidth_copy: 1
+    - _node_2319: 1
+    m_Colors:
+    - _AddColor: {r: 0.3018868, g: 0.19223924, b: 0.19223924, a: 1}
+    - _BrightColor: {r: 1, g: 0.9122896, b: 0.7971698, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_copy: {r: 1, g: 0.90194505, b: 0.495283, a: 1}
+    - _Color_copy_copy: {r: 0.8679245, g: 0.5662728, b: 0.18422928, a: 1}
+    - _DarkColor: {r: 0.9433962, g: 0.72056687, b: 0.3960484, a: 1}
+    - _FresnelColor: {r: 0.6107129, g: 1, b: 0.4481132, a: 1}
+    - _HightLightColor: {r: 0.75111526, g: 1, b: 0.6839622, a: 1}
+    - _LightShift: {r: 0, g: -0.03, b: 0.05, a: 0}
+    - _LightShift_1: {r: 0.07, g: 0.02, b: 0.17, a: 0}
+    - _LightShift_2: {r: -0.2, g: -0.15, b: 0.29, a: 0}
+    - _LightShift_copy: {r: 0.07, g: 0.13, b: 0.25, a: 0}
+    - _OutLineColor: {r: 0.69803923, g: 0.48235297, b: 0.2784314, a: 1}
+    - _node_7959: {r: -2.08, g: 3.8, b: 3.8, a: 0}
+  m_BuildTextureStacks: []
